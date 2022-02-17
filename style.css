@@ -84,3 +84,18 @@ nav {
     left: 28.5%;
   }
 }
+
+
+/* slider section */
+#slider .slider-head h1 {
+  font-size: 45px;
+}
+#slider .slider-head h1::after {
+  content: '';
+  height: 2px;
+  width: 200px;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-left: 7px;
+  background-color: red;
+}
