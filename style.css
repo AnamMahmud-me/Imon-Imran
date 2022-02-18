@@ -87,10 +87,10 @@ nav {
 
 
 /* slider section */
-#slider .slider-head h1 {
+#blog .blog-head h1 {
   font-size: 45px;
 }
-#slider .slider-head h1::after {
+#blog .blog-head h1::after {
   content: '';
   height: 2px;
   width: 200px;
@@ -98,4 +98,33 @@ nav {
   margin-bottom: 10px;
   margin-left: 7px;
   background-color: red;
+}
+
+
+/* my work section */
+#mywork {
+  position: relative;
+}
+#mywork .mywork-head h1 {
+  font-size: 100px;
+  position: relative;
+  color: rgba(124, 223, 157, 0.925);
+  top: 0;
+  right: 0;
+}
+#mywork .mywork-head h2 {
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 41%;
+}
+
+@media only screen and (max-width: 600px) {
+  #mywork .mywork-head h1 {
+    font-size: 70px;
+  }
+  #mywork .mywork-head h2 {
+    font-size: 35px;
+    left: 22.5%;
+  }
 }
