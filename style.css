@@ -143,6 +143,11 @@ nav {
   margin-left: 7px;
   background-color: red;
 }
+@media only screen and (max-width: 600px) {
+  #team .team-head h1::after {
+    width: 150px;
+  }
+}
 
 
 /* contact section */
