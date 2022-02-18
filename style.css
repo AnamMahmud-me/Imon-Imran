@@ -177,3 +177,11 @@ nav {
     left: 24%;
   }
 }
+
+
+/* copyright section */
+#copyright .up-button button {
+  height: 50px;
+  width: 50px; 
+  border-radius: 50%;
+}
