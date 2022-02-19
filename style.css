@@ -41,6 +41,9 @@ nav {
 }
 
 /* about section */
+#about {
+  background-color: #191919;
+}
 #about .about-head h2 {
   font-size: 45px;
 }
@@ -60,6 +63,7 @@ nav {
 /* services section */
 #services {
   position: relative;
+  background-color: #101010;
 }
 #services .services-head h1 {
   font-size: 100px;
@@ -87,8 +91,12 @@ nav {
 
 
 /* blog section */
+#blog {
+  background-color: #191919;
+}
 #blog .blog-head h1 {
   font-size: 45px;
+  color: #fff;
 }
 #blog .blog-head h1::after {
   content: '';
@@ -104,6 +112,10 @@ nav {
 /* my work section */
 #mywork {
   position: relative;
+  background-color: #101010;
+}
+#mywork-item {
+  background-color: #101010;
 }
 #mywork .mywork-head h1 {
   font-size: 100px;
@@ -114,6 +126,7 @@ nav {
 }
 #mywork .mywork-head h2 {
   font-size: 40px;
+  color: #fff;
   position: absolute;
   top: 50%;
   left: 41%;
@@ -131,8 +144,15 @@ nav {
 
 
 /* team section */
+#team {
+  background-color: #191919;
+}
+#team .card {
+  background-color: rgba(124, 223, 157, 0.925);
+}
 #team .team-head h1 {
   font-size: 45px;
+  color: #fff;
 }
 #team .team-head h1::after {
   content: '';
@@ -153,6 +173,7 @@ nav {
 /* contact section */
 #contact {
   position: relative;
+  background-color: #101010;
 }
 #contact .contact-head h1 {
   font-size: 100px;
@@ -163,6 +184,7 @@ nav {
 }
 #contact .contact-head h2 {
   font-size: 40px;
+  color: #fff;
   position: absolute;
   top: 50%;
   left: 42%;
@@ -180,6 +202,9 @@ nav {
 
 
 /* copyright section */
+#copyright {
+  background-color: #191919;
+}
 #copyright .up-button button {
   height: 50px;
   width: 50px; 
