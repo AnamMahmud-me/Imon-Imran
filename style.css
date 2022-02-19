@@ -45,10 +45,10 @@ nav {
 
 @media only screen and (max-width: 600px) {
   #header {
-    height: 130vh;
+    height: 120vh;
   }
   #header .header-text {
-    top: 70%;
+    top: 65%;
   }
   #header .header-text p {
     font-size: 25px;
