@@ -68,7 +68,7 @@ nav {
 #services .services-head h1 {
   font-size: 100px;
   position: relative;
-  color: rgba(124, 223, 157, 0.925);
+  color: rgba(124, 223, 157, 0.2);
   top: 0;
   right: 0;
 }
@@ -120,7 +120,7 @@ nav {
 #mywork .mywork-head h1 {
   font-size: 100px;
   position: relative;
-  color: rgba(124, 223, 157, 0.925);
+  color: rgba(124, 223, 157, 0.2);
   top: 0;
   right: 0;
 }
@@ -178,7 +178,7 @@ nav {
 #contact .contact-head h1 {
   font-size: 100px;
   position: relative;
-  color: rgba(124, 223, 157, 0.925);
+  color: rgba(124, 223, 157, 0.2);
   top: 0;
   right: 0;
 }
