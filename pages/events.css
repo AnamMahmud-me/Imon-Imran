@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* nav section */
+nav {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8))
+}
+#nav .navbar-brand {
+  font-family: 'Playball', cursive;
+}
+
+
+/* my work section */
+#mywork {
+  background-color: #101010;
+}
+
+
+/* contact section */
+#contact {
+  position: relative;
+  background-color: #191919;
+}
+#contact .contact-head h1 {
+  font-size: 100px;
+  position: relative;
+  color: rgba(124, 223, 157, 0.2);
+  top: 0;
+  right: 0;
+}
+#contact .contact-head h2 {
+  font-size: 40px;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 42%;
+}
+
+@media only screen and (max-width: 600px) {
+  #contact .contact-head h1 {
+    font-size: 90px;
+  }
+  #contact .contact-head h2 {
+    font-size: 40px;
+    left: 24%;
+  }
+}
+
+
+/* copyright section */
+#copyright {
+  background-color: #101010;
+}
+#copyright .up-button button {
+  height: 50px;
+  width: 50px; 
+  border-radius: 50%;
+}
